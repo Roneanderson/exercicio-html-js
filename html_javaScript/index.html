@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html_javaScript</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Formulário</h1>
+        <h2>Campos</h2>
+        <form id="form-campo">
+            <input type="number" id="nome-campo1" required placeholder="Nome campo-A" />
+            <p class="error-message">
+                O valor precisa ser menor!</p>
+            <input type="number" id="nome-campo2" required placeholder="nome campo-B" />
+            <textarea placeholder="Descrição (opcional)" id="descriçao"></textarea>
+            <button id="btn-depositar" type="submit">Enviar</button>
+        </form>
+        <p class="success-message">Sucesso prossiga!</p>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
